@@ -13,6 +13,15 @@ This project aims to analyze user interactions within the "technews" subreddit o
 
 - **Visualise.py**: The `Visualise.py` script visualizes the constructed graph using Matplotlib and NetworkX. This visualization provides a clear representation of user relationships and community dynamics.
 
+## Requirements
+
+- Python 3.x
+- praw library
+- networkx library
+- pandas library
+- matplotlib library
+
+
 ## Execution
 
 To execute the entire analysis process, simply run `execute_script.py`. This script automates the execution of all three main scripts in the correct sequence. It checks for the existence of data files to avoid unnecessary execution of the scraping script if the data already exists.
@@ -23,7 +32,8 @@ Estimated execution time for `Scrapper.py`: roughly 10 mins
 
 1. Clone this repository to your local machine.
 2. Ensure you have Python 3 installed.
-3. Run `execute_script.py` using the command `python3 execute_script.py`.
+3. Install the required libraries: `pip install praw networkx pandas matplotlib`
+4. Run `execute_script.py` using the command `python3 execute_script.py`.
 
 ## Note
 
